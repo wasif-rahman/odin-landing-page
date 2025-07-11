@@ -179,3 +179,47 @@ body {
   padding: 20px 0;
   font-size: 14px;
 }
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .main-content {
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .hero-image {
+    width: 100%;
+  }
+
+  .hero-text h1 {
+    font-size: 32px;
+  }
+
+  .info-cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .cta-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .cta button {
+    width: 100%;
+  }
+}
+
